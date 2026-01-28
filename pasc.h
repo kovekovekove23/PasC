@@ -57,7 +57,10 @@
 #define e(a) exit(a)
 #endif
 
-//count and operations (pc) 
+//count and operations (pc)
+#define wh while
+#define unt until
+#define f(a, b) for(int a = 0; a < b; a++)
 #define cycle(a, b, c) while((a) < (b)) { ((a) += (c));
 #define noteq(a, b, c) while((a) != (b)) { ((a) += (c));
 #define eqorl(a, b, c) while((a) <= (b)) { ((a) += (c));
@@ -78,13 +81,22 @@
 
 //variables
 #define i int
+#define ui unsigned int
+#define us unsigned short
+#define ul unsigned long
+#define ull unsigned long long
 #define fl float
 #define db double
 #define ch char
 #define bo bool
 #define v void
+#define l long
+#define ll long long
+#define bi p n unsigned int p : n
+#define sh short
 
 //main comands
+#define mas(x) sizeof(x)
 #define co(a, i) a[i]
 #define mar(type, name, count, count_1,...) type name[count][count_1] = {__VA_ARGS__}
 #define mimar(type, name,count, ...) type name[count] = {__VA_ARGS__}
