@@ -80,7 +80,7 @@
 #define di(a, b) ((a) / (b))
 
 //variables
-#define i int
+#define in  int
 #define ui unsigned int
 #define us unsigned short
 #define ul unsigned long
@@ -89,19 +89,20 @@
 #define db double
 #define ch char
 #define bo bool
-#define v void
+#define vo void
 #define l long
 #define ll long long
-#define bi p n unsigned int p : n
+#define bi(p, n) unsigned int p : n
 #define sh short
 
 //main comands
+#define beginc  int main(int argc, char *argv[]) {
 #define mas(x) sizeof(x)
 #define co(a, i) a[i]
 #define mar(type, name, count, count_1,...) type name[count][count_1] = {__VA_ARGS__}
 #define mimar(type, name,count, ...) type name[count] = {__VA_ARGS__}
 #define pcns(type, name) const type name
-#define str struct
+#define stc struct
 #define func(type, name, ...) type name(__VA_ARGS__)
 #define arp(a, b) *(a + b)
 #define swi(a) switch(a) 
@@ -115,7 +116,6 @@
 #define cls printf("\033[H\033[J")
 #define ask(msg, x) pt(msg); sn(x)
 #define line pt("--------------------------\n")
-#define start int main(int argc, char *argv[]) {
 #define go {
 #define ret return
 #define end }
